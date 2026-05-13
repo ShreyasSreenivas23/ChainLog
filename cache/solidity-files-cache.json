@@ -1,0 +1,79 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/shivamanand/Work/PES/Sem 6/BC/Mini Project/bc_project/contracts/APIKeyRegistry.sol": {
+      "lastModificationDate": 1774931138139,
+      "contentHash": "ac069cc7c15a51117840264e7ff70d8c",
+      "sourceName": "contracts/APIKeyRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "APIKeyRegistry"
+      ]
+    },
+    "/Users/shivamanand/Work/PES/Sem 6/BC/Mini Project/bc_project/contracts/APILogger.sol": {
+      "lastModificationDate": 1774931138139,
+      "contentHash": "3ad0061ec24455fb7a93db325c19f900",
+      "sourceName": "contracts/APILogger.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./APIKeyRegistry.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "APILogger"
+      ]
+    }
+  }
+}
